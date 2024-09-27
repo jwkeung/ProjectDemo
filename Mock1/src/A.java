@@ -13,9 +13,6 @@ class A {
    }
 
 public static void main(String[] args) {
-        //System.out.println( new A().getRandom(Integer.parseInt(args[0])) ); 
-        System.out.println( new A().getRandom(100) ); //Random 
-
         long mySeed = 3000;
         System.out.println( new A().getRandom(100, mySeed )); //Always the Same
 
