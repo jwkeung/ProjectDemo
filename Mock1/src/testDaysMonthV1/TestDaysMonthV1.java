@@ -78,6 +78,8 @@ public class TestDaysMonthV1 {
 		
 		// Removed by Student 2
 		
+		// Added a few lines here ...
+		
 		class StubLeapYearV2 extends LeapYearV1 {
 			public boolean isLeapYear(int year){
 				return false;
